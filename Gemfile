@@ -27,6 +27,14 @@ gem 'jbuilder', '~> 2.7'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'aws-sdk-ec2'
+gem 'capistrano'
+gem 'capistrano-bundler'
+gem 'capistrano-rails'
+gem 'capistrano-rails-console'
+gem 'capistrano-rbenv'
+gem 'capistrano-yarn'
+gem 'capistrano3-puma'
 
 group :development do
   # Manage Procfile-based applications
